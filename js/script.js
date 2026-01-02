@@ -365,8 +365,7 @@ function calculateGrades() {
         alert('Total credits cannot be zero!');
         return;
     };
-    // sij
-
+    // sijkjreglgt
     // Calculate TGPA
     const tgpa = totalGradePoints / totalCredits;
 
