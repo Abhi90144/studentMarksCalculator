@@ -391,7 +391,9 @@ function displayResults(credits, tgpa, percentage, overallGrade) {
     creditsResult.textContent = credits;
     tgpaResult.textContent = tgpa.toFixed(2);
     percentageResult.textContent = `${percentage.toFixed(2)}%`;
-    gradeResult.textContent = overallGrade;
+    // gradeResult.textContent = overallGrade;
+    gradeResult.textContent = "Final Grade (After Boundary Fix): " + overallGrade;
+
     gradeResult.className = 'result-value grade-badge grade-' + overallGrade.replace('+', '-plus');
 
     // Show results section with animation
