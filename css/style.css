@@ -935,7 +935,7 @@ body {
 /* Focus visible for keyboard navigation */
 *:focus-visible {
     outline: 2px solid var(--accent-primary);
-    outline-offset: 25px;
+    outline-offset: 2px;
 }
 
 /* GPU Acceleration for smooth animations */
