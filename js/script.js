@@ -366,7 +366,7 @@ function calculateGrades() {
         return;
     }
 
-    // Calculate TGPAskwnsklwwklsnw
+    // Calculate TGPA
     const tgpa = totalGradePoints / totalCredits;
 
     // Calculate percentage
